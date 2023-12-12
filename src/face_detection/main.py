@@ -38,4 +38,4 @@ cascade_path = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml' # o
 
 # Call the function
 detect_faces_in_image(image_path, cascade_path)
-
+# pushing changes
