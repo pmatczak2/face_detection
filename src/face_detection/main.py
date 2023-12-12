@@ -32,7 +32,7 @@ def detect_faces_in_image(image_path, cascade_path):
     cv2.destroyAllWindows()
 
 # Define paths to your image and Haar cascade XML file
-image_path = 'face/image.jpeg'
+image_path = ''
 cascade_path = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml' # output form a machine learning
 # algorithm/ what im doing here is using the machine learinig to recognize a face
 
